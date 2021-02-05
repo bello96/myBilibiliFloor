@@ -1,0 +1,56 @@
+.navigation {
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    z-index: 999;
+    box-sizing: border-box;
+    width: 80px;
+    user-select: none;
+}
+.container {
+    font-size: 25px;
+}
+.container section:nth-child(odd) {
+    height: 500px;
+    background: rgb(117, 186, 255);
+    text-align: center;
+}
+.container section:nth-child(even) {
+    height: 650px;
+    background: rgb(191, 252, 194);
+    text-align: center;
+}
+.header {
+    height: 150px;
+    background: pink;
+    text-align: center;
+    font-size: 25px;
+}
+.footer {
+    height: 200px;
+    background: rgb(219, 88, 110);
+    text-align: center;
+    font-size: 25px;
+}
+.navigation .list {
+    margin-bottom: 5px;
+}
+.navigation .list li{
+    font-size: 18px;
+    padding: 3px 0;
+    cursor: pointer;
+}
+.navigation .list li:hover{
+    color: blueviolet;
+}
+.navigation .list li.active {
+    color: rgb(212, 18, 115);
+}
+.navigation a {
+    margin-top: 15px;
+    padding: 3px 0;
+}
+.navigation a:hover {
+    padding: 3px 0;
+    color: rgb(23, 75, 75);
+}
